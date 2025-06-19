@@ -191,8 +191,8 @@ if (cmd.cmd == 'xlaim') {
 }
 
 if (cmd.cmd == 'start') {
-	bot.sendMsg("<b>Hi,</b>
-<b>Welcome To Bot</b>
+	bot.sendMsg("<b>Hi,</b>\n
+<b>Welcome To Bot</b>\n
 <b>Type /cmds For Commands</b>\n\n". inline_keyboard);
 
 	exit;
